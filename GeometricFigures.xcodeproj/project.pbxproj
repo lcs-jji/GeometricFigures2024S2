@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		587A48312CAECE9200F1C086 /* GeometricFiguresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587A482E2CAECE9200F1C086 /* GeometricFiguresApp.swift */; };
+		587A48322CAECE9200F1C086 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587A482A2CAECE9200F1C086 /* Preview Assets.xcassets */; };
+		587A48332CAECE9200F1C086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587A482C2CAECE9200F1C086 /* Assets.xcassets */; };
+		587A48362CAED03100F1C086 /* TrianglePrismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587A48352CAED03100F1C086 /* TrianglePrismView.swift */; };
+		587A48392CAED19300F1C086 /* TrianglePrism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587A48382CAED19300F1C086 /* TrianglePrism.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		587A48192CAECC2500F1C086 /* GeometricFigures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometricFigures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		587A482A2CAECE9200F1C086 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		587A482C2CAECE9200F1C086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		587A482E2CAECE9200F1C086 /* GeometricFiguresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometricFiguresApp.swift; sourceTree = "<group>"; };
+		587A48352CAED03100F1C086 /* TrianglePrismView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrianglePrismView.swift; sourceTree = "<group>"; };
+		587A48382CAED19300F1C086 /* TrianglePrism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrianglePrism.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		587A481B2CAECC2500F1C086 /* GeometricFigures */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GeometricFigures;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		587A48162CAECC2500F1C086 /* Frameworks */ = {
@@ -32,7 +37,7 @@
 		587A48102CAECC2500F1C086 = {
 			isa = PBXGroup;
 			children = (
-				587A481B2CAECC2500F1C086 /* GeometricFigures */,
+				587A482F2CAECE9200F1C086 /* GeometricFigures */,
 				587A481A2CAECC2500F1C086 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +48,42 @@
 				587A48192CAECC2500F1C086 /* GeometricFigures.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		587A482B2CAECE9200F1C086 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				587A482A2CAECE9200F1C086 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		587A482F2CAECE9200F1C086 /* GeometricFigures */ = {
+			isa = PBXGroup;
+			children = (
+				587A482E2CAECE9200F1C086 /* GeometricFiguresApp.swift */,
+				587A48372CAED16F00F1C086 /* Model */,
+				587A48342CAECFFC00F1C086 /* Views */,
+				587A482B2CAECE9200F1C086 /* Preview Content */,
+				587A482C2CAECE9200F1C086 /* Assets.xcassets */,
+			);
+			path = GeometricFigures;
+			sourceTree = "<group>";
+		};
+		587A48342CAECFFC00F1C086 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				587A48352CAED03100F1C086 /* TrianglePrismView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		587A48372CAED16F00F1C086 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				587A48382CAED19300F1C086 /* TrianglePrism.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +100,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				587A481B2CAECC2500F1C086 /* GeometricFigures */,
 			);
 			name = GeometricFigures;
 			packageProductDependencies = (
@@ -109,6 +147,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				587A48322CAECE9200F1C086 /* Preview Assets.xcassets in Resources */,
+				587A48332CAECE9200F1C086 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				587A48362CAED03100F1C086 /* TrianglePrismView.swift in Sources */,
+				587A48312CAECE9200F1C086 /* GeometricFiguresApp.swift in Sources */,
+				587A48392CAED19300F1C086 /* TrianglePrism.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
