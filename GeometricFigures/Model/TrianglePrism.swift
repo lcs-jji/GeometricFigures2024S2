@@ -25,7 +25,8 @@ struct TriangularPrism: Describable {
     var h: Double
     
     // MARK: Computed properties
-    var totalArea: Double {
+    // 2. PROCESS
+    var area: Double {
         return b*l*2 + b*h + c*h + a*h
     }
     
@@ -34,7 +35,7 @@ struct TriangularPrism: Describable {
     }
     
     var volume: Double {
-        return b*l*a/2
+        return b*l*h/2
     }
     
     var description: String {
